@@ -9,5 +9,5 @@ def reverse_each_word(phrase)
 end
 
 def reverse_each_word(phrase)
-  phrase.split 
+  phrase.split.collect { |words| 
 end
